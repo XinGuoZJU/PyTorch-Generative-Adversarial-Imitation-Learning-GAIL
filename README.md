@@ -5,6 +5,13 @@ This is a pytorch implementation of GAIL in a navigation problem. Just run "GAIL
 
 Then environment is something like that, start position is red, goal position is green.
 
+Install:
+`
+conda create --name pytorch-1.12.1 python=3.8
+source activate pytorch-1.12.1
+conda install pytorch torchvision torchaudio cudatoolkit=10.2 matplotlib opencv -c pytorch
+pip install matplotlib opencv-python
+`
 
 ![image](https://github.com/Bigpig4396/PyTorch-Generative-Adversarial-Imitation-Learning-GAIL/blob/master/env.png)
 
